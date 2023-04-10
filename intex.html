@@ -13,11 +13,105 @@
         </header>
         <article>
             <h2>Curso de HTML5 com CSS3</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tempore? Facilis ut eius culpa tempore laudantium odit, velit pariatur reprehenderit iusto delectus ex illum omnis blanditiis repellendus quas quos impedit?</p>
+            <p>HTML5 é a última versão da linguagem de marcação HTML. Ela oferece recursos avançados para criar aplicativos web ricos em conteúdo e interatividade. CSS3 é a versão mais recente da linguagem de folhas de estilo em cascata que permite personalizar a aparência e o layout dos elementos HTML. Juntos, HTML5 e CSS3 permitem criar sites modernos e responsivos.
+
+                Algumas das principais características do HTML5 incluem suporte a vídeo e áudio nativo, recursos de semântica avançados para melhorar a acessibilidade e usabilidade do site, além de suporte a dispositivos móveis e capacidade de armazenamento local.
+                
+                O CSS3, por sua vez, oferece recursos avançados de personalização, como gradientes, sombras, animações e transformações. Isso permite que os desenvolvedores criem designs mais elaborados e modernos para seus sites e aplicativos da web.
+                
+                Juntos, HTML5 e CSS3 oferecem um conjunto completo de recursos para criar sites modernos e responsivos que funcionam em todos os dispositivos. Por exemplo, um desenvolvedor pode usar o HTML5 para criar um formulário de contato com campos personalizados e validação de entrada, enquanto usa o CSS3 para estilizar o formulário com cores, fontes, tamanhos e layout personalizado.
+                
+                Aqui está um exemplo de como um código HTML5 e CSS3 podem ser combinados para criar um formulário de contato estilizado:
+                
+                php
+                
+                Copiar código
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <title>Meu formulário de contato</title>
+                    <link rel="stylesheet" type="text/css" href="style.css">
+                </head>
+                <body>
+                    <form>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem"></textarea>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </body>
+                </html>
+                E aqui está o código CSS3 para estilizar o formulário:
+                
+                CSS
+                
+                Copiar código
+                form {
+                    max-width: 600px;
+                    margin: 0 auto;
+                    padding: 20px;
+                    background-color: #fff;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    border-radius: 5px;
+                }
+                
+                label {
+                    display: block;
+                    margin-bottom: 5px;
+                }
+                
+                input, textarea {
+                    display: block;
+                    width: 100%;
+                    padding: 10px;
+                    margin-bottom: 15px;
+                    border-radius: 5px;
+                    border: none;
+                    background-color: #f7f7f7;
+                }
+                
+                input[type="submit"] {
+                    background-color: #0070c0;
+                    color: #fff;
+                    border: none;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+                Este código HTML5 e CSS3 produziria um formulário de contato estilizado com um fundo branco, bordas arredondadas, sombras e botão de envio com cor de fundo personalizado. Esses recursos permitem que os desenvolvedores criem formulários de contato modernos e personalizados que se adaptam a diferentes dispositivos e telas.</p>
         </article>
         <article>
             <h2>Curso de JavaScript</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio reprehenderit velit eveniet quis, tenetur eaque earum! Tenetur sapiente libero laudantium quis perferendis assumenda rem enim, neque exercitationem doloribus nihil! Consectetur.</p>
+            <p>O JavaScript é uma linguagem de programação de alto nível que é usada principalmente para criar páginas web interativas. Ele é executado em navegadores web e permite aos desenvolvedores criar recursos dinâmicos e interativos em suas páginas web.
+
+                O JavaScript foi desenvolvido em 1995 por Brendan Eich da Netscape e é atualmente mantido pela Ecma International. Ele é uma linguagem de programação interpretada, o que significa que o código fonte é executado diretamente em um ambiente de tempo de execução, sem a necessidade de compilação.
+                
+                Uma das principais características do JavaScript é sua capacidade de manipular o HTML e o CSS de uma página web em tempo real. Isso permite que os desenvolvedores criem recursos interativos, como menus suspensos, botões que mudam de cor quando são clicados e até mesmo jogos em HTML5.
+                
+                O JavaScript também possui recursos de programação orientada a objetos, permitindo que os desenvolvedores criem objetos com propriedades e métodos personalizados. Ele também possui recursos de controle de fluxo, como loops e condicionais, que permitem que os desenvolvedores criem algoritmos complexos.
+                
+                A sintaxe do JavaScript é semelhante à de outras linguagens de programação, como C e Java, tornando-a fácil de aprender para desenvolvedores que já têm experiência em programação.
+                
+                Para começar a programar em JavaScript, é necessário incluir o código em um arquivo HTML e, em seguida, vincular esse arquivo à página HTML usando a tag <script> . Depois disso, os desenvolvedores podem começar a escrever seu código JavaScript dentro das tags <script> e </script> .
+                
+                Um exemplo simples de código JavaScript é o seguinte:
+                
+                php
+                
+                Copiar código
+                <script>
+                  // Define uma variável
+                  var nome = "João";
+                
+                  // Exibe uma mensagem na tela com o nome
+                  alert("Olá, " + nome + "!");
+                </script>
+                Este código define uma variável chamada "nome" e atribui a ela o valor "João". Em seguida, exibe uma mensagem na tela com o nome usando a função "alerta".
+                
+                Em resumo, o JavaScript é uma linguagem de programação poderosa e versátil que é amplamente utilizada em desenvolvimento web para criar recursos interativos e dinâmicos. Com sua sintaxe simples e recursos poderosos, é fácil de aprender para desenvolvedores iniciantes e avançados.</p>
         </article>
     </main>
 </body>
